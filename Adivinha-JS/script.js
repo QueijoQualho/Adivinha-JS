@@ -29,8 +29,6 @@ botao.addEventListener('click', () => {
     }
 
     verificaDerrota();
-
-    console.log(numeroCerto);
 });
 
 const again = document.querySelector('.btn.again')
