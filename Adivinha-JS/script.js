@@ -4,14 +4,14 @@ const highscore = document.querySelector('.highscore');
 const botao = document.querySelector('.btn.check');
 const scorePrint = document.querySelector('.score');
 
-let botaoAtivo = true; // Inicialmente o botão está ativado
+let botaoAtivo = true; 
 let score = 20;
 let numeroCerto = Math.trunc(Math.random() * 20) + 1;
 
 /* Guest */
 botao.addEventListener('click', () => {
     if (!botaoAtivo) {
-        return; // Sai da função se o botão não estiver ativado
+        return; 
     }
 
     const guest = parseFloat(numero.value);
